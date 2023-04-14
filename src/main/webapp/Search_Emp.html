@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Search for Student by ID</title>
+<style>
+body {
+	background-color: #f0f0f0;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 50px;
+}
+
+form {
+	background-color: #fff;
+	max-width: 600px;
+	margin: 50px auto;
+	padding: 20px;
+	box-shadow: 0px 0px 5px #ccc;
+}
+
+label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+input[type="text"] {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #666;
+}
+
+input[type="button"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+input[type="button"]:hover {
+	background-color: #666;
+}
+
+.back-link {
+	background-color: #333;
+	color: #333;
+	text-decoration: none;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: #ccc;
+}
+
+.back-link:hover {
+	background-color: #666;
+	color: #fff;
+}
+</style>
+</head>
+<body>
+	<h1>Search for Student by ID</h1>
+
+	<form action="serching_only_1" method="get">
+		<label for="id">Enter Student ID:</label> <input type="text" id="id"
+			name="id" placeholder="Enter student ID" required> <input
+			type="submit" value="Search">
+		
+			<a class="back-link" href="Home.html">Back</a>
+		
+	</form>
+</body>
+</html>

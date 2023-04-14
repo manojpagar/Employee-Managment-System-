@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+
+body {
+	background-image: url("../images/black_login.jpg");
+	 background-size: cover;
+}button
+{
+    height: 35px;
+    width: 174px;
+    border-radius: 10px;
+    border: none;
+    background-color : green;
+     box-shadow: 7px 7px 9px black;
+}
+input
+{
+    height: 35px;
+    width: 174px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 7px 7px 9px black;
+    
+}
+
+div{
+    background-color:#899ccd;
+    height: 350px;
+    width: 320px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px black;
+
+}
